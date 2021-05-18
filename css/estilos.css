@@ -1,0 +1,161 @@
+body {
+    margin     : 0;
+    color      : #40514E;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+
+h1 {
+    color      : #13ceb5;
+    font-weight: normal;
+}
+
+
+hr {
+    color        : #eaf6f6;
+    width        : 50px;
+    border-style : dotted;
+    border-bottom: none;
+    border-left  : none;
+    border-right : none;
+    border-width : 5px;
+    margin       : 100px auto;
+}
+
+h2 {
+    text-align   : center;
+    color        : #66BFBF;
+    margin-bottom: 20px;
+
+
+}
+
+.displayed {
+    margin-top  : 50px;
+    display     : block;
+    margin-left : auto;
+    margin-right: auto;
+}
+
+.navbar {
+    background-color: #00BFA6;
+
+
+}
+
+.navbar-lista {
+    list-style: none;
+    margin    : 0;
+    padding   : 0;
+
+}
+
+.navbar-item-lista {
+    display    : inline-block;
+    margin-left: 8px;
+    cursor     : pointer;
+
+}
+
+.navbar-item-lista:hover {
+    background-color: #b2ebf2;
+
+}
+
+
+.navbar .navbar-lista .navbar-item-lista:hover .navbar-link {
+    color: #40514E;
+
+}
+
+.navbar .navbar-lista .navbar-item-lista .navbar-link {
+    text-decoration: none;
+    font-size      : 1.3rem;
+    line-height    : 50px;
+    padding-left   : 8px;
+    padding-right  : 8px;
+    color          : #FFFFFF;
+
+
+}
+
+div.initial-container {
+    display       : flex;
+    flex-direction: column;
+    align-items   : center;
+
+}
+
+.middle-container {
+    margin         : 0 100px 100px 0;
+    display        : flex;
+    justify-content: space-between;
+    padding-left   : 100px;
+    padding-right  : 100px;
+
+}
+
+.responsive {
+    max-width : 400px;
+    max-height: 600px;
+}
+
+
+div.middle-container .text-container {
+    text-align: justify;
+}
+
+
+
+.contact-container {
+    margin    : 0 350px 0 350px;
+    text-align: center;
+}
+
+.btn-outline-info {
+    font-size       : 1.2rem;
+    border-radius   : 10px;
+    background-color: #00BFA6;
+    padding         : 10px;
+    margin-top      : 30px;
+    margin-bottom   : 50px;
+
+}
+
+.p-btn {
+    text-align: center;
+}
+
+.a-btn {
+    text-decoration: none;
+    color          : #FFFFFF;
+
+}
+
+.btn-outline-info:hover {
+    background-color: #b2ebf2;
+
+}
+
+a-btn:hover {
+    color    : #40514E;
+    font-size: 1.2rem;
+}
+
+.bottom-container{
+    display: flex;
+    justify-content: center;
+}
+
+.bottom-container .bottom-link{
+    line-height: 70px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    font-size:1.2rem;
+    color:#40514E ;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
