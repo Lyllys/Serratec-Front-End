@@ -40,8 +40,6 @@ h2 {
 
 .navbar {
     background-color: #00BFA6;
-    max-width: 100%;
-
 
 }
 
@@ -87,6 +85,7 @@ div.initial-container {
     align-items   : center;
 
 }
+
 
 .middle-container {
     margin         : 0 100px 100px 0;
@@ -144,19 +143,38 @@ a-btn:hover {
     font-size: 1.2rem;
 }
 
-.bottom-container{
-    display: flex;
+.bottom-container {
+    display        : flex;
     justify-content: center;
 }
 
-.bottom-container .bottom-link{
-    line-height: 70px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 30px;
-    font-size:1.2rem;
-    color:#40514E ;
-    cursor: pointer;
+.bottom-container .bottom-link {
+    line-height    : 70px;
+    padding-left   : 30px;
+    padding-right  : 30px;
+    padding-bottom : 30px;
+    font-size      : 1.2rem;
+    color          : #40514E;
+    cursor         : pointer;
     text-decoration: none;
-    
+
+}
+
+.p-btn-to-top{
+    font-size: 0.7rem;
+    text-align: center;
+}
+.back-to-top {
+    background-color: #40514E;
+    border-radius   : 50px;
+    bottom          : 14px;
+    cursor          : pointer;
+    height          : 60px;
+    position        : fixed;
+    right           : 22px;
+    width           : 60px;
+}
+
+.back-to-top:hover{
+    background-color: #00BFA6; 
 }
