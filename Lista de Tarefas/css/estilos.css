@@ -4,25 +4,33 @@
     box-sizing: border-box;
 }
 
-
 form {
     margin        : 0 20% 0 auto;
-    width         : 30%;
+    width         : 40%;
     display       : flex;
     flex-direction: column;
+   
 }
 
 form #adicionar-tarefas {
-    margin-top: 50px;
-    height    : 30px;
+    margin-top: 30px;
+    height    : 40px;
+}
+
+h1{
+    text-align: center;
+    color: #6C63FF;
+    margin-top: 20px;
 }
 
 
 form .btn.btn-outline-primary {
-    margin-top   : 50px;
+    margin-top   : 20px;
     margin-bottom: 50px;
     color        : #6C63FF;
     border-color : #6C63FF;
+    border-radius: 10px;
+    width: 100%;
 }
 
 form .btn.btn-outline-primary:hover {
@@ -33,7 +41,7 @@ form .btn.btn-outline-primary:hover {
 
 section {
     margin        : 0 20% 0 auto;
-    width         : 30%;
+    width         : 40%;
     display       : flex;
     flex-direction: column;
 }
@@ -63,6 +71,11 @@ section {
         object-fit: cover;
     }
 
+    form {
+        padding: 50px ;
+        width  : 100%;
+    }
+
 }
 
 @media screen and (min-width: 1046px) {
@@ -76,4 +89,4 @@ section {
         object-fit: cover;
     }
 
-}
+} 
