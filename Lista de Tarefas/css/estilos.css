@@ -9,7 +9,7 @@ form {
     width         : 40%;
     display       : flex;
     flex-direction: column;
-   
+
 }
 
 form #adicionar-tarefas {
@@ -17,10 +17,10 @@ form #adicionar-tarefas {
     height    : 40px;
 }
 
-h1{
+h1 {
     text-align: center;
-    color: #6C63FF;
-    margin-top: 20px;
+    color     : #6C63FF;
+    margin-top: 50px;
 }
 
 
@@ -30,7 +30,7 @@ form .btn.btn-outline-primary {
     color        : #6C63FF;
     border-color : #6C63FF;
     border-radius: 10px;
-    width: 100%;
+    width        : 100%;
 }
 
 form .btn.btn-outline-primary:hover {
@@ -48,22 +48,24 @@ section {
 
 .btn.btn-outline-danger {
     margin-left: 10px;
+    padding    : 0.2rem 0.6rem;
+    font-size  : 0.9rem;
 
 }
 
 .rodape img {
-    width      : 30%;
-    height     : auto; 
-    position   : fixed;
-    bottom     : 0;
-    left       : 0;
-    object-fit : cover;
+    width     : 30%;
+    height    : auto;
+    position  : fixed;
+    bottom    : 0;
+    left      : 0;
+    object-fit: cover;
 }
 
 @media screen and (max-width: 780px) {
 
     .rodape img {
-        width     : 40%;
+        width     : 30%;
         height    : auto;
         position  : fixed;
         bottom    : 0;
@@ -72,7 +74,7 @@ section {
     }
 
     form {
-        padding: 50px ;
+        padding: 50px;
         width  : 100%;
     }
 
@@ -81,7 +83,7 @@ section {
 @media screen and (min-width: 1046px) {
 
     .rodape img {
-        width     :20%;
+        width     : 20%;
         height    : auto;
         position  : fixed;
         bottom    : 0;
@@ -89,4 +91,4 @@ section {
         object-fit: cover;
     }
 
-} 
+}

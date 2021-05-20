@@ -31,44 +31,9 @@
     </footer>
 
 
-    <script>
-
-        const botaoAdicionar = document.querySelector('#adicionar-itens');
-        const input = document.querySelector('#adicionar-tarefas');
-
-
-        botaoAdicionar.addEventListener('click', function (evento) {
-
-            evento.preventDefault();
-
-            const ul = document.querySelector('ul');
-            const li = document.createElement('li');
-            const botaoExcluir = document.createElement('button')
-
-            li.classList.add('list-group-item');
-            botaoExcluir.classList.add('btn', 'btn-outline-danger');
-
-
-            li.textContent = input.value;
-            console.log(li);
-            input.value = '';
-
-            botaoExcluir.textContent = 'x';
-
-            ul.append(li);
-            li.append(botaoExcluir);
-
-            botaoExcluir.addEventListener('click', function () {
-                const excluir = document.querySelector('li');
-
-                li.remove();
-
-            })
-
-        })
-
-    </script>
+    <script src="js/lista.js"></script>
 
 </body>
 
 </html>
+
