@@ -1,0 +1,59 @@
+ 
+ h1 {
+     text-align: center;
+ }
+
+ div.container {
+     margin: 20px auto;
+
+ }
+
+ #containerDeCards {
+    display        : flex;
+    flex-wrap      : wrap;
+    justify-content: center;
+
+}
+
+ .img-fluid{
+     
+    margin-top: 80px;
+}
+
+ .card {
+     width : 30%;
+     margin: 15px 15px;
+ }
+
+ .btn.btn-outline-primary:hover {
+     background-color: #F50057;
+     border-color    : #fff;
+ }
+
+ .btn.btn-outline-primary {
+     color        : #F50057;
+     border-color : #F50057;
+     margin-bottom: 10px;
+     width        : 100%;
+     border-radius: 10px;
+ }
+
+ .btn.btn-outline-danger {
+    margin-left: 5px;
+    padding    : 0.2rem 0.6rem;
+    font-size  : 0.9rem;
+
+}
+
+
+ @media screen and (max-width: 768px) {
+     .card {
+         width : 100%;
+         margin: 15px 15px;
+     }
+
+     .img-fluid{
+        margin-top: 0;
+    }
+
+ }
