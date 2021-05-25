@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pedidos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css">
+    <style>
+        body div.container {
+            min-height: 100vh;
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: space-between;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="row col-12">
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <div>
+                        <h1>Itens de pedido</h1>
+                    </div>
+                    <form>
+                        <div class="form-group">
+                            <label class="form-label" for="nome">Nome do produto</label>
+                            <input required type="text" id="nome" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="quantidade">Quantidade</label>
+                            <input required min="1" type="number" id="quantidade" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="valor">Valor</label>
+                            <input required min="0.01" step="0.01" type="number" id="valor" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="categoria">Categoria</label>
+                            <select class="form-select" id="categoria">
+                                <option value="Livros">Livros</option>
+                                <option value="DVDs">DVDs</option>
+                                <option value="Papelaria">Papelaria</option>
+                            </select>
+                        </div>
+                        <button id="botaoSalvar" type="submit" class="btn btn-outline-primary mt-3 block">
+                            Salvar
+                        </button>
+                        <button type="button" id="botaoLimpar" class="btn btn-outline-danger mt-3 block">
+                            Remover todos os itens
+                        </button>
+                    </form>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <table class="table table-striped table-hover mt-5">
+                        <thead>
+                            <tr>
+                                <th>Nome</th>
+                                <th>Categoria</th>
+                                <th>Quantidade</th>
+                                <th>Valor</th>
+                                <th>Total</th>
+                                <th>Excluir</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                    <p id="valor-total-tudo"></p>
+                </div>
+            </div>
+        </div>
+        <footer class="row col-12">
+            <div class="col-12 col-lg-6 mt-3 mb-4">
+                <img class="img-fluid w-100" src="shopping.svg"
+                    alt="ilustração de uma mulher com um carrinho de compras">
+            </div>
+        </footer>
+    </div>
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>

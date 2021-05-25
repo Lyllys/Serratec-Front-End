@@ -1,0 +1,55 @@
+.btn.block {
+    width: 100%;
+}
+
+img{
+    width     : 30%;
+}
+
+h1{
+    color: #7C77F3;
+    text-align: center;
+}
+
+
+th{
+    color: #7C77F3;
+}
+
+
+#botaoSalvar{
+    color        : #7C77F3;
+    border-color : #7C77F3;
+    border-radius: 10px;
+    width        : 100%;
+}
+
+#botaoSalvar:hover {
+    color           : #fff;
+    background-color: #7C77F3;
+    border-color    : #7C77F3;
+}
+
+#botaoLimpar{
+    color        : #dc1c1cd0;
+    border-color : #dc1c1cd0;
+    border-radius: 10px;
+    width        : 100%;
+}
+
+#botaoLimpar:hover {
+    color           : #fff;
+    background-color: #dc1c1cd0;
+    border-color    : #dc1c1cd0;
+}
+
+.btn.btn-danger{
+    background-color        : #dc1c1cd0;
+    border-radius: 5px;
+}
+
+.valorTotalTudo{
+    color: #7C77F3;
+    font-weight: bold;
+    
+}
